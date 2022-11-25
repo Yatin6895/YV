@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+.main{
+     width: 100%;
+     height: 100%;
+     background-color: azure;
+     display: grid;
+     grid-template-columns:repeat(3,2fr);
+     gap: 1px;
+    
+
+}
+.main .input{
+    padding: 10px;
+}
+.main .input .box{
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    background-color:rgb(114, 113, 113);
+}
+.main .input .box h2{
+    font-size: 25px;
+    padding: 40px;
+    color: white;
+    margin-left: 4px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.main .input .text {
+    width: 300px;
+    height: 120px;
+    font-size: 12px;
+    border: 1px solid white;
+    background-color: white;
+    letter-spacing: 1px;
+    padding: 4px;
+}
+.main .input .text button{
+    width: 50px;
+    height: 30px;
+    
+    margin-top: 15px;
+}
+
