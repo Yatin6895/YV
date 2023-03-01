@@ -1,0 +1,22 @@
+p {
+color:blueviolet;
+
+}
+
+li{
+/* height: 10px; */
+list-style-type:circle;
+
+}
+
+.P1{
+
+    color: crimson;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
